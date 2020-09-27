@@ -1,6 +1,7 @@
 # Pro Version Of Telegram Member Adder Tool
 
-Contact with me to get the Password of Zip file on :
+Contact me to get the Pro Version of this TeleAdder :
+
 
  Telegram : https://t.me/daredevilkinng
  
