@@ -89,10 +89,11 @@ $ pkg install git -y
 $ pkg install -y git python
 
 
-$ git clone https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete.git
+$ git clone https://github.com/daredevilkinng/TeleAdder.git
 
 
 $ cd Telegram-Scraper-Adder-Complete
+
 
 $ ls
 
