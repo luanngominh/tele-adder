@@ -1,4 +1,3 @@
-#!/bin/env python3
 from telethon.sync import TelegramClient
 from telethon.tl.types import InputPeerUser
 from telethon.errors.rpcerrorlist import PeerFloodError
@@ -24,7 +23,7 @@ class main():
             
      Recoded By Da₹edevilkinng
      
-     please do not change the descriptipn of code changing it doesn't make you a coder. 
+     please do not change the descriptipn of code changing it won't make you a coder. 
      Respect coders. Thank you.
      
      """)
