@@ -93,8 +93,7 @@ $ pkg install -y git python
 $ git clone https://github.com/daredevilkinng/TeleAdder.git
 
 
-$ cd Telegram-Scraper-Adder-Complete
-
+$ cd TeleAdder
 
 $ ls
 
@@ -109,6 +108,7 @@ $ python3 setup.py -i
 To setup configration file ( API ID, API HASH )
 
 $ python3 setup.py -c
+$ python3 smsbot.py members.csv
 
 
 
