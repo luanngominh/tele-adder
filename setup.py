@@ -23,7 +23,7 @@ def banner():
 	Recoded By Da₹edevilkinng
 	
 	THIS IS 1ST INSTANCE
-	please do not change the descriptipn of code changing it doesn't make you a coder. 
+	please do not change the descriptipn of code changing it won't make you a coder. 
 	Respect coders. Thank you.
 	
 	""")
@@ -84,7 +84,7 @@ def merge_csv():
 def update_tool():
 	import requests as r
 	banner()
-	source = r.get("https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete.git")
+	source = r.get("https://github.com/daredevilkinng/TeleAdder.git")
 	if source.text == '3':
 		print(gr+'['+cy+'+'+gr+']'+cy+' alredy latest version')
 	else:
@@ -92,10 +92,10 @@ def update_tool():
 		os.system('rm *.py');time.sleep(1)
 		print(gr+'['+cy+'+'+gr+']'+cy+' getting latest files ...')
 		os.system("""
-			curl -s -O https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete/blob/master/groupadd.py
-			curl -s -O https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete/blob/master/telescraper.py
-			curl -s -O https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete/blob/master/setup.py
-			curl -s -O https://github.com/cancerlethal/Telegram-Scraper-Adder-Complete/blob/master/botsms.py
+			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/groupadd.py
+			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/scraper.py
+			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/setup.py
+			curl -s -O https://github.com/daredevilkinng/TeleAdder/blob/master/smsbot.py
 			chmod 777 *.py
 			""");time.sleep(1)
 		print(gr+'\n['+cy+'+'+gr+']'+cy+' update compled.\n')
