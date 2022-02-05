@@ -80,8 +80,9 @@ chats.extend(result.chats)
  
 for chat in chats:
     try:
-        if chat.megagroup== True:
-            groups.append(chat)
+        groups.append(chat)
+        #if chat.megagroup== True:
+        #    groups.append(chat)
     except:
         continue
  
@@ -94,6 +95,7 @@ print(gr+'[+] Choose a group to add members')
 g_index = input(gr+"[+] Enter a Number : "+re)
 target_group=groups[int(g_index)]
  
+print(target_group)
 target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
  
 print(gr+"[1] add member by user ID\n[2] add member by username ")
@@ -103,7 +105,7 @@ n = 0
 for user in users:
     n += 1
     if n % 50 == 0:
-	    time.sleep(1)
+	    time.sleep(5)
 	    try:
 	        print ("Adding {}".format(user['id']))
 	        if mode == 1:
@@ -116,7 +118,7 @@ for user in users:
 	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
 	        print(gr+"[+] Waiting for right time to add members...")
-	        time.sleep(1)
+	        time.sleep(5)
 	    except PeerFloodError:
 	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
 	    except UserPrivacyRestrictedError:

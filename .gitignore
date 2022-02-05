@@ -1,0 +1,6 @@
+config.data
+*.session
+*session*
+*.csv
+**/*.csv
+members
